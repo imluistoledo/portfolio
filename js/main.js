@@ -97,7 +97,7 @@ window.addEventListener('scroll', revealElements)
 // ********** Display skill list on each category ********** // NEW
 // Gets the common container between all the lists and their display buttons
 // The event listener is applied to the whole container, so it needs to be verified
-const displaySkillList = document.getElementById('section-info')
+const displaySkillList = document.getElementById('section-info-events')
 displaySkillList.addEventListener('click', (e) => {
     // In order to verify which elements needs the actions, it validates:
     /**
