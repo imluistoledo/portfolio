@@ -124,6 +124,12 @@ displaySkillList.addEventListener('click', (e) => {
         else if (e.target.classList.contains('btn4')) {
             document.querySelector('.list4').classList.toggle('active')
         }
+        else if (e.target.classList.contains('btn5')) {
+            document.querySelector('.list5').classList.toggle('active')
+        }
+        else if (e.target.classList.contains('btn6')) {
+            document.querySelector('.list6').classList.toggle('active')
+        }
     }
 })
 // ********** Display skill list on each category ********** //
