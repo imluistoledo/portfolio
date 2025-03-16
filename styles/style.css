@@ -457,6 +457,10 @@ body.dark-scheme .main-cont p {
   padding: 30px 10px;
   width: 60%;
 }
+.main-cont .about-me .section-info .info p.reveal {
+  text-align: left;
+  width: 100%;
+}
 .main-cont .about-me .section-info .info .skills {
   position: relative;
   display: grid;
