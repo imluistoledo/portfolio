@@ -1,5 +1,7 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&family=Roboto:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 
 /* ********** Variables ********** */
 
@@ -32,11 +34,11 @@ $dark-soft-box-shadow: 0 0 10px 3px rgba(100, 120, 184, 0.6);
 /* Color scheme */
 
 /* Fonts */
-$title-font: 'Poppins';
+$title-font: 'Rubik', 'Poppins';
 $bold-title: '600';
 $bolder-title: '900';
 
-$content-font: 'Roboto';
+$content-font: 'DM Sans', 'Roboto';
 $regular-content: '400';
 $bolder-content: '900';
 
@@ -58,7 +60,7 @@ $small-font-size: 10px;
     transition: 0.1s ease;
 
     &::selection {
-        background: rgba(255,255,255,0.3);
+        background: rgba(183, 170, 200, 0.3);
     }
 }
 
