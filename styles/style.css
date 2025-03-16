@@ -492,6 +492,7 @@ body.dark-scheme .main-cont p {
   align-items: flex-start;
   height: 80%;
   width: 100%;
+  padding: 20px 100px;
 }
 .main-cont .skills-cont .section-info .skill-cont {
   position: relative;
@@ -501,7 +502,6 @@ body.dark-scheme .main-cont p {
   align-items: flex-start;
   width: 100%;
   padding: 10px;
-  padding-top: 40px;
 }
 .main-cont .skills-cont .section-info .skill-cont .skill {
   position: relative;
@@ -510,7 +510,7 @@ body.dark-scheme .main-cont p {
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin: 10px;
+  margin: 10px 40px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
@@ -548,10 +548,25 @@ body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .categ
 .main-cont .skills-cont .section-info .skill-cont .skill .list {
   position: relative;
   display: none;
-  width: 100%;
+  width: 80%;
 }
 .main-cont .skills-cont .section-info .skill-cont .skill .list.active {
   display: block;
+}
+.main-cont .skills-cont .section-info .skill-cont .skill .list h3 {
+  text-align: left;
+}
+body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .list h3 {
+  color: #95a4df;
+}
+.main-cont .skills-cont .section-info .skill-cont .skill .list h3.new {
+  color: #6778bd;
+}
+.main-cont .skills-cont .section-info .skill-cont .skill .list h3.new i {
+  font-size: 10px;
+}
+body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .list h3.new {
+  color: #fff;
 }
 .main-cont .areas-cont {
   padding-top: 30px;

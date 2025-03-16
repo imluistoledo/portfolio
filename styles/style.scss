@@ -602,6 +602,7 @@ a {
             align-items: flex-start;
             height: 80%;
             width: 100%;
+            padding: 20px 100px;
 
             .skill-cont {
                 position: relative;
@@ -611,7 +612,6 @@ a {
                 align-items: flex-start;
                 width: 100%;
                 padding: 10px;
-                padding-top: 40px;
 
                 .skill {
                     position: relative;
@@ -620,7 +620,7 @@ a {
                     justify-content: center;
                     align-items: center;
                     width: 50%;
-                    margin: 10px;
+                    margin: 10px 40px;
                     background: #fff;
                     border-radius: 8px;
                     box-shadow: $light-soft-box-shadow;
@@ -662,10 +662,30 @@ a {
                     .list {
                         position: relative;
                         display: none;
-                        width: 100%;
+                        width: 80%;
                         
                         &.active {
                             display: block;
+                        }
+
+                        h3 {
+                            text-align: left;
+
+                            body.dark-scheme & {
+                                color: #95a4df;
+                            }
+                        }
+                        
+                        h3.new {
+                            color: $dark-desc;
+
+                            i {
+                                font-size: 10px;
+                            }
+
+                            body.dark-scheme & {
+                                color: #fff;
+                            }
                         }
                     }
                 }
