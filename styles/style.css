@@ -597,10 +597,6 @@ body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .list 
   width: 1200px;
   margin: 0 auto;
 }
-.main-cont .areas-cont .section-info .effect-1:hover .card {
-  filter: blur(10px);
-  transform: scale(0.9);
-}
 .main-cont .areas-cont .section-info .effect-1 .card .box {
   position: absolute;
   top: 0;
@@ -649,7 +645,7 @@ body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .list 
 }
 .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
   padding: 10px;
-  height: 60%;
+  height: 80%;
   width: 120%;
   background: linear-gradient(45deg, #463bac, #746ee9);
   border-radius: 5px;
@@ -665,10 +661,6 @@ body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .list 
 .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div p {
   color: #fff;
   cursor: pointer;
-}
-.main-cont .areas-cont .section-info .effect-1 .card:hover {
-  filter: blur(0);
-  transform: scale(1.1);
 }
 .main-cont .areas-cont .section-info .effect-1 .card:hover .box {
   transform: rotateY(180deg);
@@ -1133,7 +1125,7 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
     padding: 0.5em;
-    height: 60%;
+    height: 80%;
     width: 120%;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div h2 {
@@ -1317,7 +1309,7 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
     padding: 0.5em;
-    height: 60%;
+    height: 80%;
     width: 120%;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div h2 {
@@ -1487,7 +1479,7 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
     padding: 0.5em;
-    height: 60%;
+    height: 80%;
     width: 120%;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div h2 {
@@ -1584,10 +1576,6 @@ body.dark-scheme .footer-cont {
     margin: 0 auto;
     padding: 1em 0;
   }
-  body .main-cont .areas-cont .section-info .effect-1:hover .card {
-    filter: blur(10px);
-    transform: scale(0.9);
-  }
   body .main-cont .areas-cont .section-info .effect-1 .card {
     position: relative;
     width: 30%;
@@ -1642,7 +1630,7 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
     padding: 10px;
-    height: 60%;
+    height: 80%;
     width: 120%;
     background: linear-gradient(45deg, #463bac, #746ee9);
     border-radius: 5px;
@@ -1658,10 +1646,6 @@ body.dark-scheme .footer-cont {
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div p {
     color: #fff;
     cursor: pointer;
-  }
-  body .main-cont .areas-cont .section-info .effect-1 .card:hover {
-    filter: blur(0);
-    transform: scale(1.1);
   }
   body .main-cont .areas-cont .section-info .effect-1 .card:hover .box {
     transform: rotateY(180deg);
