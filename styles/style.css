@@ -406,6 +406,7 @@ body.dark-scheme .main-cont p {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 0 100px;
   padding-top: 30px;
@@ -514,6 +515,7 @@ body.dark-scheme .main-cont p {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  font-size: 1em;
 }
 body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill {
   box-shadow: 0 0 10px 3px rgba(100, 120, 184, 0.6);
@@ -555,6 +557,7 @@ body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .categ
 }
 .main-cont .skills-cont .section-info .skill-cont .skill .list h3 {
   text-align: left;
+  font-size: 5px;
 }
 body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .list h3 {
   color: #95a4df;
@@ -1059,12 +1062,12 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .about-me {
     padding: 0 5px;
-    padding-top: 30px;
   }
   body .main-cont .about-me .section-info {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
   body .main-cont .about-me .section-info .img {
     height: 25em;
@@ -1076,6 +1079,7 @@ body.dark-scheme .footer-cont {
     width: 80%;
     padding: 1em 0.5em;
     text-align: center;
+    gap: 20px;
   }
   body .main-cont .about-me .section-info .info .skills {
     margin-top: 1em;
@@ -1084,11 +1088,17 @@ body.dark-scheme .footer-cont {
     padding: 0;
     padding-top: 30px;
   }
-  body .main-cont .skills-cont .skill-cont {
-    padding: 0;
+  body .main-cont .skills-cont .section-info {
+    padding: 2.5em 0;
   }
-  body .main-cont .skills-cont .skill-cont .skill {
+  body .main-cont .skills-cont .section-info .skill-cont {
+    height: 100%;
+    gap: 2.5em;
+    padding: 0 2em;
+  }
+  body .main-cont .skills-cont .section-info .skill-cont .skill {
     padding: 0;
+    margin: 1em 0;
   }
   body .main-cont .areas-cont {
     padding: 0;
@@ -1118,13 +1128,13 @@ body.dark-scheme .footer-cont {
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 10px;
     margin-top: 1em;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card {
     position: relative;
-    width: 40%;
-    height: 16em;
-    margin: 0.5em 0.3em;
+    width: 80%;
+    height: 12em;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
     padding: 0.5em;
@@ -1133,6 +1143,16 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div h2 {
     margin-bottom: 0;
+  }
+  body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div p {
+    font-size: 5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    line-height: 3.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card:hover {
     transform: scale(1);
@@ -1151,6 +1171,7 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .projects-cont .section-info .projects-carousel .main-container {
     width: 100%;
+    height: 100%;
     margin-bottom: 2em;
   }
   body .main-cont .projects-cont .section-info .projects-carousel .main-container .carousel-container .carousel .slide {
@@ -1181,6 +1202,31 @@ body.dark-scheme .footer-cont {
     padding-bottom: 15em;
   }
 }
+@media screen and (max-width: 545px) {
+  body {
+    font-size: 10px;
+  }
+  body .header-cont .header {
+    display: block;
+    height: 8em;
+    max-height: 10em;
+    padding: 0 2em;
+  }
+  body .header-cont .header .nav-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .header-cont .header .nav-bar ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  body .header-cont .header .nav-bar ul li {
+    margin-right: 1em;
+  }
+}
 /* Small devices */
 @media screen and (min-width: 500px) {
   body {
@@ -1197,12 +1243,13 @@ body.dark-scheme .footer-cont {
     align-items: center;
   }
   body .header-cont .header .nav-bar ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px;
   }
   body .header-cont .header .nav-bar ul li {
-    margin-right: 1em;
+    margin-right: 0.5em;
   }
   body .header-cont .presentation-cont {
     padding-left: 0;
@@ -1274,6 +1321,18 @@ body.dark-scheme .footer-cont {
     padding: 0 20px;
     padding-top: 30px;
   }
+  body .main-cont .skills-cont .section-info {
+    padding: 2.5em 0;
+  }
+  body .main-cont .skills-cont .section-info .skill-cont {
+    height: 100%;
+    gap: 2.5em;
+    padding: 0 2em;
+  }
+  body .main-cont .skills-cont .section-info .skill-cont .skill {
+    padding: 0;
+    margin: 1em 0;
+  }
   body .main-cont .areas-cont {
     padding: 0;
     padding-top: 30px;
@@ -1296,19 +1355,20 @@ body.dark-scheme .footer-cont {
     font-size: 1em;
   }
   body .main-cont .areas-cont .section-info .effect-1 {
-    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
+    padding: 0;
     margin-top: 1em;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card {
     position: relative;
     width: 40%;
-    height: 13em;
-    margin: 0.5em 0.3em;
+    height: 16em;
+    margin: 0 0.3em;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
     padding: 0.5em;
@@ -1317,6 +1377,16 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div h2 {
     margin-bottom: 0;
+  }
+  body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div p {
+    font-size: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    line-height: 1.8em;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card:hover {
     transform: scale(1);
@@ -1339,6 +1409,7 @@ body.dark-scheme .footer-cont {
   body .main-cont .projects-cont .section-info .projects-carousel .main-container {
     width: 100%;
     margin-bottom: 2em;
+    height: 100%;
   }
   body .main-cont .projects-cont .section-info .projects-carousel .main-container .carousel-container .carousel .slide {
     flex-direction: column;
@@ -1477,7 +1548,7 @@ body.dark-scheme .footer-cont {
   body .main-cont .areas-cont .section-info .effect-1 .card {
     position: relative;
     width: 40%;
-    height: 11em;
+    height: 14em;
     margin: 0.5em 0.3em;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div {
@@ -1582,7 +1653,7 @@ body.dark-scheme .footer-cont {
   body .main-cont .areas-cont .section-info .effect-1 .card {
     position: relative;
     width: 30%;
-    height: 14em;
+    height: 16em;
     margin: 0.5em 0.3em;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box {
