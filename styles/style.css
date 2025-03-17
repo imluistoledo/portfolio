@@ -557,7 +557,7 @@ body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .categ
 }
 .main-cont .skills-cont .section-info .skill-cont .skill .list h3 {
   text-align: left;
-  font-size: 5px;
+  font-size: 15px;
 }
 body.dark-scheme .main-cont .skills-cont .section-info .skill-cont .skill .list h3 {
   color: #95a4df;
@@ -1119,7 +1119,7 @@ body.dark-scheme .footer-cont {
   }
   body .main-cont .areas-cont .section-info p {
     color: #dddddd;
-    font-size: 1em;
+    font-size: 1.5em;
   }
   body .main-cont .areas-cont .section-info .effect-1 {
     padding: 0;
@@ -1145,12 +1145,12 @@ body.dark-scheme .footer-cont {
     margin-bottom: 0;
   }
   body .main-cont .areas-cont .section-info .effect-1 .card .box .content-box div p {
-    font-size: 5px;
+    font-size: 13px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     line-clamp: 3;
-    line-height: 3.5em;
+    line-height: 1.5em;
     text-overflow: ellipsis;
     overflow: hidden;
   }
